@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuSearch Manager</title>
+    <link rel="stylesheet" type="text/css" href='options.css'>
+</head>
+<body>
+    <div class="container">
+        <div id="heading">
+            <li class="field">
+                <div class="flexShrink">
+                    <div>
+                        <img src="../icons/32.png" alt="Favicon for MenuSearch" class="icon">
+                    </div>
+                    <h1>Menu Search</h1>
+                </div>
+                <div>
+                    
+                </div>
+                <div class="buttonsWrapper">
+                    <button id="sortAlphabetically">📌 Alphabetical</button>
+                    <button id="scrollEnd">⬇ Scroll End</button>
+                </div>
+            </li>
+        </div>
+        <!-- The unordered list where fieldsets will be appended -->
+        <ul id="listOfFieldsets"></ul>
+
+        <div class="buttonsWrapper">
+            <button id="addButton">➕ Add Link</button>
+            <button id="addSeparatorButton">➖ Add Separator</button>
+            <button id="saveButton">💾 Save</button>
+        </div>
+        <div class="borderGray"></div>
+        <div class="buttonsWrapper">
+            <button id="loadDefaults">🔄 Load Defaults</button>
+            <button id="exportData">📤 Export Data</button>
+            <button id="importData">📥 Import Data</button>
+        </div>
+        <div class="borderGray"></div>
+        <div class="buttonsWrapper">
+            <button id="scrollUp">⬆ Scroll Up</button>
+            <button id="closeWindow">❌ Close</button>
+        </div>
+
+    </div>
+
+    <template id="fieldsetTemplate">
+        <li class="field">
+            <div class="flexShrink">
+                <img src="../icons/64.png" alt="Link Icon" class="icon">
+            </div>
+            <div>
+                <label for="" class="labelText">Name:</label>
+                <input type="text" placeholder="Name" class="name">
+            </div>
+            <div>
+                <label for="" class="labelText">URL:</label>
+                <!-- URL input is now editable for new entries -->
+                <input type="text" placeholder="URL with %s in place of query" class="url">
+            </div>
+            <span class="deleteButton">⛔</span>
+        </li>
+    </template>
+
+    <template id="separatorTemplate">
+        <li>
+            <div class="borderGray"></div>
+            <span class="text">Separator</span>
+            <div class="borderGray"></div>
+            <span class="deleteButton">⛔</span>
+        </li>
+  </template>
+    
+</body>
+  <script src="options.js"></script>
+</html>

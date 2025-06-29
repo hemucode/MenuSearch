@@ -1,0 +1,11 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "Right-click any text or image to search it directly. "
+    },
+    "app_short_name": {
+        "message": "search"
+    }
+}
