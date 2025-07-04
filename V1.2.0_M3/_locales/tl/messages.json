@@ -1,0 +1,32 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "Mag-right-click sa anumang teksto o imahe upang maghanap nang direkta."
+    },
+    "app_short_name": {
+        "message": "maghanap"
+    },
+    "text_alphabetical": {
+        "message": "Alpabeto"
+    },
+    "text_save": {
+        "message": "I -save"
+    },
+    "text_saved": {
+        "message": "Nai -save"
+    },
+    "text_close": {
+        "message": "Malapit"
+    },
+    "text_name": {
+        "message": "Pangalan"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "Separator"
+    }
+}

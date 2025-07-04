@@ -1,0 +1,53 @@
+{
+    "app_name": {
+        "message": "菜单搜索"
+    },
+    "app_description": {
+        "message": "右键单击任何文本或图像以直接搜索。"
+    },
+    "app_short_name": {
+        "message": "搜索"
+    },
+    "text_alphabetical": {
+        "message": "字母顺序"
+    },
+    "text_scroll_end": {
+        "message": "滚动结束"
+    },
+    "text_scroll_up": {
+        "message": "向上滚动"
+    },
+    "text_add_link": {
+        "message": "添加链接"
+    },
+    "text_add_separator": {
+        "message": "添加分离器"
+    },
+    "text_save": {
+        "message": "节省"
+    },
+    "text_saved": {
+        "message": "保存"
+    },
+    "text_load_defaults": {
+        "message": "加载默认值"
+    },
+    "text_export_data": {
+        "message": "导出数据"
+    },
+    "text_import_data": {
+        "message": "导入数据"
+    },
+    "text_close": {
+        "message": "关闭"
+    },
+    "text_name": {
+        "message": "姓名"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "分离器"
+    }
+}

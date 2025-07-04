@@ -1,0 +1,47 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "Högerklicka på vilken text eller en bild för att söka direkt."
+    },
+    "app_short_name": {
+        "message": "söka"
+    },
+    "text_alphabetical": {
+        "message": "Alfabetisk"
+    },
+    "text_scroll_end": {
+        "message": "Bläddring"
+    },
+    "text_scroll_up": {
+        "message": "Rulla upp"
+    },
+    "text_save": {
+        "message": "Spara"
+    },
+    "text_saved": {
+        "message": "Räddad"
+    },
+    "text_load_defaults": {
+        "message": "Laddar"
+    },
+    "text_export_data": {
+        "message": "Exportdata"
+    },
+    "text_import_data": {
+        "message": "Importdata"
+    },
+    "text_close": {
+        "message": "Nära"
+    },
+    "text_name": {
+        "message": "Namn"
+    },
+    "text_url": {
+        "message": "Url"
+    },
+    "text_separator": {
+        "message": "Separator"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "Cliquez avec le bouton droit sur tout texte ou image pour le rechercher directement."
+    },
+    "app_short_name": {
+        "message": "recherche"
+    },
+    "text_alphabetical": {
+        "message": "Alphabétique"
+    },
+    "text_save": {
+        "message": "Sauvegarder"
+    },
+    "text_saved": {
+        "message": "Sauvé"
+    },
+    "text_close": {
+        "message": "Fermer"
+    },
+    "text_name": {
+        "message": "Nom"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "Separator"
+    }
+}

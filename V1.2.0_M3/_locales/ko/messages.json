@@ -1,0 +1,35 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "텍스트 나 이미지를 마우스 오른쪽 버튼으로 클릭하여 직접 검색하십시오."
+    },
+    "app_short_name": {
+        "message": "찾다"
+    },
+    "text_alphabetical": {
+        "message": "알파벳"
+    },
+    "text_scroll_end": {
+        "message": "스크롤 끝"
+    },
+    "text_save": {
+        "message": "구하다"
+    },
+    "text_saved": {
+        "message": "저장"
+    },
+    "text_close": {
+        "message": "닫다"
+    },
+    "text_name": {
+        "message": "이름"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "분리 기호"
+    }
+}

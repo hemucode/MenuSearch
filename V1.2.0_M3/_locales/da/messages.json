@@ -1,0 +1,47 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "Højreklik på enhver tekst eller billede for at søge direkte."
+    },
+    "app_short_name": {
+        "message": "søge"
+    },
+    "text_alphabetical": {
+        "message": "Alfabetisk"
+    },
+    "text_scroll_up": {
+        "message": "Rul op"
+    },
+    "text_add_link": {
+        "message": "Tilføj link"
+    },
+    "text_add_separator": {
+        "message": "Tilføj separator"
+    },
+    "text_save": {
+        "message": "Spare"
+    },
+    "text_saved": {
+        "message": "Gemt"
+    },
+    "text_export_data": {
+        "message": "Eksportdata"
+    },
+    "text_import_data": {
+        "message": "Importer data"
+    },
+    "text_close": {
+        "message": "Tæt"
+    },
+    "text_name": {
+        "message": "Navn"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "Separator"
+    }
+}

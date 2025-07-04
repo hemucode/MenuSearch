@@ -1,0 +1,41 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "Napsauta hiiren kakkospainikkeella mitä tahansa tekstiä tai kuvaa etsiäksesi sitä suoraan."
+    },
+    "app_short_name": {
+        "message": "haku"
+    },
+    "text_alphabetical": {
+        "message": "Aakkosellinen"
+    },
+    "text_scroll_up": {
+        "message": "Vierittää"
+    },
+    "text_add_link": {
+        "message": "Lisää linkki"
+    },
+    "text_add_separator": {
+        "message": "Lisää erotin"
+    },
+    "text_save": {
+        "message": "Tallentaa"
+    },
+    "text_saved": {
+        "message": "Pelastettu"
+    },
+    "text_close": {
+        "message": "Lähellä"
+    },
+    "text_name": {
+        "message": "Nimi"
+    },
+    "text_url": {
+        "message": "URL -osoite"
+    },
+    "text_separator": {
+        "message": "Erotin"
+    }
+}

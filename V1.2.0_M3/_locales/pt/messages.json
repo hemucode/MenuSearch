@@ -1,0 +1,41 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "Clique com o botão direito do mouse em qualquer texto ou imagem para pesquisá-lo diretamente."
+    },
+    "app_short_name": {
+        "message": "procurar"
+    },
+    "text_alphabetical": {
+        "message": "Alphabetical"
+    },
+    "text_scroll_end": {
+        "message": "Roll End"
+    },
+    "text_scroll_up": {
+        "message": "Role para cima"
+    },
+    "text_add_link": {
+        "message": "Adicione link"
+    },
+    "text_save": {
+        "message": "Salvar"
+    },
+    "text_saved": {
+        "message": "Salvo"
+    },
+    "text_close": {
+        "message": "Fechar"
+    },
+    "text_name": {
+        "message": "Nome"
+    },
+    "text_url": {
+        "message": "Url"
+    },
+    "text_separator": {
+        "message": "Separador"
+    }
+}

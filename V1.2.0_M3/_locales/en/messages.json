@@ -3,9 +3,52 @@
         "message": "MenuSearch"
     },
     "app_description": {
-        "message": "Right-click any text or image to search it directly. "
+        "message": "Right-click any text or image to search it directly."
     },
     "app_short_name": {
         "message": "search"
+    },
+    "text_alphabetical": {
+        "message": "Alphabetical"
+    },
+    "text_scroll_end": {
+        "message": "Scroll End"
+    },
+    "text_scroll_up": {
+        "message": "Scroll Up"
+    },
+    "text_add_link": {
+        "message": "Add Link"
+    },
+    "text_add_separator": {
+        "message": "Add Separator"
+    },
+    "text_save": {
+        "message": "Save"
+    },
+    "text_saved": {
+        "message": "Saved"
+    },
+    "text_load_defaults": {
+        "message": "Load Defaults"
+    },
+    "text_export_data": {
+        "message": "Export Data"
+    },
+    "text_import_data": {
+        "message": "Import Data"
+    },
+    "text_close": {
+        "message": "Close"
+    },
+    "text_name": {
+        "message": "Name"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "Separator"
     }
+
 }

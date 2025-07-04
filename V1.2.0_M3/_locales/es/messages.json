@@ -1,0 +1,41 @@
+{
+    "app_name": {
+        "message": "Menusear investigación"
+    },
+    "app_description": {
+        "message": "Haga clic derecho en cualquier texto o imagen para buscarlo directamente."
+    },
+    "app_short_name": {
+        "message": "buscar"
+    },
+    "text_alphabetical": {
+        "message": "Alphabetical"
+    },
+    "text_scroll_up": {
+        "message": "Desplacarse"
+    },
+    "text_add_link": {
+        "message": "Agregar enlace"
+    },
+    "text_add_separator": {
+        "message": "Agregar separador"
+    },
+    "text_save": {
+        "message": "Ahorrar"
+    },
+    "text_saved": {
+        "message": "Guardado"
+    },
+    "text_close": {
+        "message": "Cerca"
+    },
+    "text_name": {
+        "message": "Nombre"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "Separador"
+    }
+}

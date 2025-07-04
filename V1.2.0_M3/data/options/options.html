@@ -20,8 +20,8 @@
                     
                 </div>
                 <div class="buttonsWrapper">
-                    <button id="sortAlphabetically">📌 Alphabetical</button>
-                    <button id="scrollEnd">⬇ Scroll End</button>
+                    <button id="sortAlphabetically">📌 <span data-message="text_alphabetical"></span></button>
+                    <button id="scrollEnd">⬇ <span data-message="text_scroll_end"></span></button>
                 </div>
             </li>
         </div>
@@ -29,20 +29,20 @@
         <ul id="listOfFieldsets"></ul>
 
         <div class="buttonsWrapper">
-            <button id="addButton">➕ Add Link</button>
-            <button id="addSeparatorButton">➖ Add Separator</button>
-            <button id="saveButton">💾 Save</button>
+            <button id="addButton">➕ <span data-message="text_add_link"></span></button>
+            <button id="addSeparatorButton">➖ <span data-message="text_add_separator"></span></button>
+            <button id="saveButton">💾 <span data-message="text_save"></span></button>
         </div>
         <div class="borderGray"></div>
         <div class="buttonsWrapper">
-            <button id="loadDefaults">🔄 Load Defaults</button>
-            <button id="exportData">📤 Export Data</button>
-            <button id="importData">📥 Import Data</button>
+            <button id="loadDefaults">🔄 <span data-message="text_load_defaults"></span></button>
+            <button id="exportData">📤 <span data-message="text_export_data"></span></button>
+            <button id="importData">📥 <span data-message="text_import_data"></span></button>
         </div>
         <div class="borderGray"></div>
         <div class="buttonsWrapper">
-            <button id="scrollUp">⬆ Scroll Up</button>
-            <button id="closeWindow">❌ Close</button>
+            <button id="scrollUp">⬆ <span data-message="text_scroll_up"></span></button>
+            <button id="closeWindow">❌ <span data-message="text_close"></span></button>
         </div>
 
     </div>
@@ -53,11 +53,11 @@
                 <img src="../icons/64.png" alt="Link Icon" class="icon">
             </div>
             <div>
-                <label for="" class="labelText">Name:</label>
+                <label for="" class="labelText"><span data-message="text_name">Name</span>:</label>
                 <input type="text" placeholder="Name" class="name">
             </div>
             <div>
-                <label for="" class="labelText">URL:</label>
+                <label for="" class="labelText"><span data-message="text_url">URL</span>:</label>
                 <!-- URL input is now editable for new entries -->
                 <input type="text" placeholder="URL with %s in place of query" class="url">
             </div>
@@ -68,8 +68,8 @@
     <template id="separatorTemplate">
         <li>
             <div class="borderGray"></div>
-            <span class="text">Separator</span>
-            <div class="borderGray"></div>
+            <span class="text" data-message="text_separator"></span>
+            <div class="borderGray">Separator</div>
             <span class="deleteButton">⛔</span>
         </li>
   </template>

@@ -13,9 +13,9 @@
 	const API = typeof chrome !== 'undefined' ? chrome : (typeof browser !== 'undefined' ? browser : null);
 
 	const config = {
-		"browser": "chrome",
-		"webstore": `https://chromewebstore.google.com/detail/${API.runtime.id}`,
-		"homepage": "https://www.codehemu.com/p/adblock-for-youtube.html",
+		"browser": "edge",
+		"webstore": `https://microsoftedge.microsoft.com/addons/detail/${API.runtime.id}`,
+		"homepage": "https://www.codehemu.com/p/menusearch.html",
 		"interface": {
 		    "size": {
 		      "width": 800,
@@ -385,11 +385,9 @@
 	  });
 	};
 
-
-
 	(async() => {
 		Promise.all([
-		  // await lifecycleEvents(),
+		  await lifecycleEvents(),
 		  await createWindowEvents(),
 		  await removeWindowEvents(),
 		  await updateDynamicMenu(),

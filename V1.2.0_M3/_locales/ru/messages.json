@@ -1,0 +1,32 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "Щелкните правой кнопкой мыши любой текст или изображение, чтобы найти его напрямую."
+    },
+    "app_short_name": {
+        "message": "поиск"
+    },
+    "text_alphabetical": {
+        "message": "Алфавитный"
+    },
+    "text_save": {
+        "message": "Сохранять"
+    },
+    "text_saved": {
+        "message": "Сохранил"
+    },
+    "text_close": {
+        "message": "Закрывать"
+    },
+    "text_name": {
+        "message": "Имя"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "Сепаратор"
+    }
+}

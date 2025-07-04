@@ -1,0 +1,32 @@
+{
+    "app_name": {
+        "message": "MenuSearch"
+    },
+    "app_description": {
+        "message": "テキストまたは画像を右クリックして直接検索します。"
+    },
+    "app_short_name": {
+        "message": "検索"
+    },
+    "text_alphabetical": {
+        "message": "アルファベット順"
+    },
+    "text_save": {
+        "message": "保存"
+    },
+    "text_saved": {
+        "message": "保存"
+    },
+    "text_close": {
+        "message": "近い"
+    },
+    "text_name": {
+        "message": "名前"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "セパレーター"
+    }
+}

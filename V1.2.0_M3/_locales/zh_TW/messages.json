@@ -1,0 +1,53 @@
+{
+    "app_name": {
+        "message": "菜單搜索"
+    },
+    "app_description": {
+        "message": "右鍵單擊任何文本或圖像以直接搜索。"
+    },
+    "app_short_name": {
+        "message": "搜尋"
+    },
+    "text_alphabetical": {
+        "message": "字母順序"
+    },
+    "text_scroll_end": {
+        "message": "滾動結束"
+    },
+    "text_scroll_up": {
+        "message": "向上滾動"
+    },
+    "text_add_link": {
+        "message": "添加鏈接"
+    },
+    "text_add_separator": {
+        "message": "添加分離器"
+    },
+    "text_save": {
+        "message": "節省"
+    },
+    "text_saved": {
+        "message": "保存"
+    },
+    "text_load_defaults": {
+        "message": "加載默認值"
+    },
+    "text_export_data": {
+        "message": "導出數據"
+    },
+    "text_import_data": {
+        "message": "導入數據"
+    },
+    "text_close": {
+        "message": "關閉"
+    },
+    "text_name": {
+        "message": "姓名"
+    },
+    "text_url": {
+        "message": "URL"
+    },
+    "text_separator": {
+        "message": "分離器"
+    }
+}

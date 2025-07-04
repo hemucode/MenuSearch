@@ -113,6 +113,26 @@
     window.addEventListener("load", callback, {once: true});
   };
 
+  const translate = () => {
+    return new Promise((resolve) => {
+      const elements = document.querySelectorAll("[data-message]");
+      for (const element of elements) {
+        const key = element.dataset.message;
+        if (typeof API !== 'undefined' && API.i18n && API.i18n.getMessage) {
+          const message = API.i18n.getMessage(key);
+          if (message) {
+            element.textContent = message;
+          } else {
+            console.error("Missing API.i18n message for key:", key);
+          }
+        } else {
+          console.error("Chrome i18n API (API.i18n.getMessage) not available. Cannot translate elements.");
+        }
+      }
+      resolve();
+    });
+  };
+
   const isValidUrlOrigin = (urlString) => {
       try {
           const url = new URL(urlString);
@@ -242,6 +262,7 @@
   damReady(() => {
     getAllExtensionSettings().then(settings=>{
       setFieldsets(settings[STORAGE_KEY_FIELD_SETS]);
+      translate();
     });
 
     const listOfFieldsets = $(`#${OPTION_LIST_FO_FIELDSETS_ID}`);
@@ -264,7 +285,8 @@
     if (addButton) {
       addButton.addEventListener("click",()=>{
         if (regularFieldsetTemplate && regularFieldsetTemplate.content) {
-          listOfFieldsets.appendChild(regularFieldsetTemplate.content.cloneNode(true))
+          listOfFieldsets.appendChild(regularFieldsetTemplate.content.cloneNode(true));
+          translate();
         }else {
           console.log(`Template with ID '${OPTION_FIELDSETS_TEMPLATE_ID}' not found or has no content.`);
         }
@@ -275,9 +297,10 @@
 
     const addSeparatorButton = $(`#${OPTION_ADD_SEPARATOR_BTN_ID}`);
     if (addSeparatorButton) {
-      addSeparatorButton.addEventListener("click",()=>{
+      addSeparatorButton.addEventListener("click", ()=>{
         if (separatorTemplate && separatorTemplate.content) {
-          listOfFieldsets.appendChild(separatorTemplate.content.cloneNode(true))
+          listOfFieldsets.appendChild(separatorTemplate.content.cloneNode(true));
+          translate();
         }else {
           console.log(`Template with ID '${OPTION_ADD_SEPARATOR_BTN_ID}' not found or has no content.`);
         }
@@ -288,7 +311,7 @@
 
     const saveButton = $(`#${OPTION_SAVE_LINK_BTN_ID}`);
     if (saveButton) {
-      saveButton.addEventListener("click",async()=>{
+      saveButton.addEventListener("click", async()=>{
         const dataToSave = []; // Array to hold validated data for saving
         const fieldsets = listOfFieldsets.querySelectorAll('li'); // Get all list items (fieldsets)
         for (let i = 0; i < fieldsets.length; i++) {
@@ -329,8 +352,8 @@
         try {
           const savedSuccessfully = await setExtensionSettings({ [STORAGE_KEY_FIELD_SETS]: dataToSave });
           if (savedSuccessfully) {
-            saveButton.textContent = "💾 Saved";
-            setTimeout(() => saveButton.textContent = "💾 Save", 1000);
+            saveButton.textContent = "💾 " + (API.i18n?.getMessage("text_saved") || "Saved");
+            setTimeout(() => saveButton.textContent = "💾 " + (API.i18n?.getMessage("text_save") || "Save"), 1000);
           } else {
             console.error("Failed to save settings. `setExtensionSettings` did not return true.");
           }
@@ -425,6 +448,7 @@
         const defaultField = DEFAULT_EXTENSION_SETTINGS[STORAGE_KEY_FIELD_SETS];
         setExtensionSettings({[STORAGE_KEY_FIELD_SETS]: defaultField});
         setFieldsets(defaultField);
+        translate();
       });
     }else{
       console.log("damReady: 'loadDefaults' element not found in the DOM.");
@@ -480,6 +504,7 @@
               if (storage && typeof storage === 'object' && storage[STORAGE_KEY_FIELD_SETS]) {
                 setFieldsets(storage[STORAGE_KEY_FIELD_SETS]);
                 console.log("Settings imported successfully!");
+                translate();
               } else {
                 console.warn("Imported JSON does not contain expected 'fieldsets' structure.");
               }
